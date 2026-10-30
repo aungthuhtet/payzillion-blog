@@ -24,7 +24,7 @@ const { Content } = await render(post);
 ---
 
 <Layout title={post.data.title} description={post.data.description} type="article">
-  {/* data-pagefind-body ထည့်သွင်းထားခြင်းကြောင့် ဤဆောင်းပါး အကြောင်းအရာများကိုသာ Pagefind က သီးသန့် Search Index လုပ်မည်ဖြစ်ပါသည် */}
+  {/* data-pagefind-body make Pagefind to find only blog post only for Search Index */}
   <article data-pagefind-body class="max-w-3xl mx-auto space-y-8 py-6 px-4 sm:px-0">
     
     {/* Back to Home / Articles Button */}
@@ -58,7 +58,7 @@ const { Content } = await render(post);
         {post.data.description}
       </p>
 
-      {/* Featured Image Display - object-contain ဖြင့် ပုံတစ်ခုလုံး အပြည့်အစုံပေါ်စေရန် */}
+      {/* Featured Image Display - object-contain make the whole photo show fully */}
       {post.data.image && (
         <div class="w-full max-h-[500px] rounded-2xl overflow-hidden shadow-sm bg-slate-900/5 border border-slate-200/80 my-6 flex items-center justify-center p-2">
           <Image 

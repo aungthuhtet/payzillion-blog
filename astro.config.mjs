@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://payzillion.com', // သင့် Production Domain
+  site: 'https://payzillion.com', // Production Domain
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],

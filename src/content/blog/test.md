@@ -3,7 +3,7 @@ title: "MPU အကြောင်း၊ MPU ကဒ်တွေအကြောင
 description: "မြန်မာနိုင်ငံ၏ MPU ငွေပေးချေမှုစနစ်အကြောင်း လေ့လာခြင်း"
 pubDate: 2026-10-31
 author: "Aung Thu Htet"
-draft: false
+draft: true
 tags: 
   - "atm"
   - "myanmar-payment"

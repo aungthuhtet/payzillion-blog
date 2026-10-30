@@ -3,7 +3,7 @@
 import Layout from '@/layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
-// Draft မဟုတ်သော Blog Post များကို ယူပြီး ရက်စွဲအလိုက် စီပေးခြင်း
+// Sort Blog Post which are not draft by date
 const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
