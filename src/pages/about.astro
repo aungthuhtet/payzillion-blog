@@ -1,0 +1,60 @@
+---
+// src/pages/about.astro
+import Layout from '@/layouts/Layout.astro';
+---
+
+<Layout title="About" description="Learn more about PayZillion, our mission to decode the global payments industry, and our educational resources.">
+  <div class="max-w-3xl mx-auto space-y-12 py-10 px-4 sm:px-0">
+    
+    {/* Page Title & Subtitle */}
+    <header class="space-y-3 border-b border-slate-200 pb-8">
+      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
+        About PayZillion
+      </h1>
+      <p class="text-slate-600 text-base sm:text-lg">
+        Decoding the Payments Ecosystem, Architecture & Infrastructure.
+      </p>
+    </header>
+
+    {/* Section 1: Main Description */}
+    <section class="space-y-4 text-slate-700 text-base sm:text-lg leading-relaxed">
+      <p>
+        <strong class="font-semibold text-slate-900">PayZillion</strong> is a professional knowledge platform focused on the global payments industry — covering digital payments, card payment systems, fintech, banking technology, and payment infrastructure.
+      </p>
+      <p class="text-slate-600 text-base">
+        Quality learning resources on payment systems are scarce worldwide — but for Myanmar, they are almost nonexistent. PayZillion was built to change that. The platform publishes in-depth articles tailored for Myanmar's growing community of payment professionals, fintech practitioners, and banking technologists, making complex payment knowledge genuinely accessible for the first time.
+      </p>
+    </section>
+
+    {/* Section 2: The Card Payment Professional's Playbook */}
+    <section class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-2xs space-y-3">
+      <h2 class="text-xl font-bold text-slate-900">
+        The Card Payment Professional's Playbook
+      </h2>
+      <p class="text-slate-600 text-base leading-relaxed">
+        PayZillion authored <a href="/product/the-card-payment-professionals-playbook/" class="font-semibold text-slate-900 underline decoration-amber-400 decoration-2 underline-offset-4 hover:text-amber-600">The Card Payment Professional’s Playbook</a>, a comprehensive book covering the end-to-end card payments industry — from payment cards and ecosystem participants to transaction processing, ISO 8583, and system architecture. Written specifically for Myanmar readers, it delivers a complete, practical understanding of how card payment systems work in the real world.
+      </p>
+    </section>
+
+    {/* Section 3: Educational Payment Simulator */}
+    <section class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-2xs space-y-3">
+      <h2 class="text-xl font-bold text-slate-900">
+        Educational Payment Simulator
+      </h2>
+      <p class="text-slate-600 text-base leading-relaxed">
+        To support hands-on learning, PayZillion built the Educational Payment Simulator — an interactive platform open to anyone in the world interested in card payments. Users can simulate realistic ATM, POS, and e-commerce transactions, analyze ISO 8583 message logs, and explore card management in a self-contained educational sandbox. Try it at <a href="https://simulator.payzillion.com/" target="_blank" rel="noopener noreferrer" class="font-semibold text-slate-900 underline decoration-amber-400 decoration-2 underline-offset-4 hover:text-amber-600">simulator.payzillion.com</a>.
+      </p>
+    </section>
+
+    {/* Section 4: Our Mission */}
+    <section class="border-l-4 border-amber-500 pl-6 py-3 space-y-2 bg-amber-50/40 rounded-r-xl">
+      <h2 class="text-sm font-bold tracking-wider text-amber-800 uppercase">
+        Our Mission
+      </h2>
+      <blockquote class="text-lg sm:text-xl font-serif text-slate-800 italic leading-snug">
+        "To make high-quality payment system knowledge structured, practical, and accessible — starting where the gap is greatest."
+      </blockquote>
+    </section>
+
+  </div>
+</Layout>

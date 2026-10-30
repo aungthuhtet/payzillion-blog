@@ -1,0 +1,151 @@
+---
+title: "The Card Payment Professional’s Playbook စာအုပ်ထွက်ပါပြီ"
+description: ""
+pubDate: 2026-06-26
+author: "Aung Thu Htet"
+tags: 
+  - "atm"
+  - "card-issuer"
+  - "card-network"
+  - "card-payments"
+  - "card-scheme"
+  - "digital-payments"
+  - "ecommerce"
+  - "financial-services"
+  - "fintech"
+  - "myanmar-payment"
+  - "payments"
+  - "pos"
+draft: false
+---
+
+၂၀၂၅ ခုနှစ်၊ မေလ ၂-ရက်နေ့မှာ ထွက်ခဲ့တဲ့ Card Payments Professional စာအုပ်ရဲ့ Second Edition အနေနဲ့ စာအုပ်ကို ပိုမိုပြည်စုံအောင် ဖြည့်စွက်ပြင်ဆင်တည်းဖြတ်ပြီး ထပ်မံထုတ်ဝေတာ ဖြစ်ပါတယ်။ စာအုပ်နာမည်ကိုတော့ Professional Certification နာမည်တွေနဲ့ ကွဲပြားသွားအောင်ရယ်၊ လုပ်ငန်းခွင်မှာ အမှန်တကယ် အသုံးချနိုင်တဲ့ လမ်းညွှန်စာအုပ်အနေနဲ့ ပိုမို ပေါ်လွင်သွားအောင် **The Card Payment Professional’s Playbook** ဆိုပြီး အမည်ပြောင်းလိုက်ပါတယ်။
+
+- <figure>
+    
+    ![The Card Payment Professional's Playbook](/images/the-card-payment-professionals-playbook-scaled.jpg)
+    
+    <figcaption>
+    
+    The Card Payment Professional's Playbook
+    
+    </figcaption>
+    
+    </figure>
+    
+- <figure>
+    
+    ![The Card Payment Professional's Playbook - TOC Page 1](https://payzillion.com/wp-content/uploads/2026/06/the-card-payment-professionals-playbook-toc1.png)
+    
+    <figcaption>
+    
+    The Card Payment Professional's Playbook - TOC Page 1
+    
+    </figcaption>
+    
+    </figure>
+    
+- <figure>
+    
+    ![The Card Payment Professional's Playbook - TOC Page 2](https://payzillion.com/wp-content/uploads/2026/06/the-card-payment-professionals-playbook-toc2.png)
+    
+    <figcaption>
+    
+    The Card Payment Professional's Playbook - TOC Page 2
+    
+    </figcaption>
+    
+    </figure>
+    
+- <figure>
+    
+    ![The Card Payment Professional's Playbook - TOC Page 3](https://payzillion.com/wp-content/uploads/2026/06/the-card-payment-professionals-playbook-toc3.png)
+    
+    <figcaption>
+    
+    The Card Payment Professional's Playbook - TOC Page 3
+    
+    </figcaption>
+    
+    </figure>
+    
+- <figure>
+    
+    ![The Card Payment Professional's Playbook - TOC Page 4](https://payzillion.com/wp-content/uploads/2026/06/the-card-payment-professionals-playbook-toc4.png)
+    
+    <figcaption>
+    
+    The Card Payment Professional's Playbook - TOC Page 4
+    
+    </figcaption>
+    
+    </figure>
+    
+- <figure>
+    
+    ![The Card Payment Professional's Playbook - TOC Page 5](https://payzillion.com/wp-content/uploads/2026/06/the-card-payment-professionals-playbook-toc5.png)
+    
+    <figcaption>
+    
+    The Card Payment Professional's Playbook - TOC Page 5
+    
+    </figcaption>
+    
+    </figure>
+    
+- <figure>
+    
+    ![The Card Payment Professional's Playbook - TOC Page 6](https://payzillion.com/wp-content/uploads/2026/06/the-card-payment-professionals-playbook-toc6.png)
+    
+    <figcaption>
+    
+    The Card Payment Professional's Playbook - TOC Page 6
+    
+    </figcaption>
+    
+    </figure>
+    
+
+E-book (Digital) Version ဖြစ်ပြီး အောက်ပါ Link ကနေ ဝယ်ယူလို့ရပါပြီ။
+
+https://payzillion.com/product/the-card-payment-professionals-playbook/
+
+The Card Payment Professional’s Playbook စာအုပ် (eBook) ထဲမှာဘာတွေပါမလဲဆိုတော့…  
+✅ ငွေပေးချေကတ်တွေရဲ့အကြောင်း၊ နည်းပညာနဲ့ အလုပ်လုပ်ပုံတွေ သဘောတရားတွေ  
+✅ ငွေပေးချေမှုရဲ့ End-to-End Process နှင့် Authorization, Clearing, Settlement တွေအကြောင်း  
+✅ Card Management System တစ်ခုရဲ့ လုပ်ဆောင်ချက်တွေနဲ့ ကတ်ထုတ်ဝေတဲ့ Process တွေ  
+✅ Card တစ်ကဒ်ရဲ့ တည်ဆောက်ပုံတွေ၊ Luhn Algorithm နဲ့ Card Number တွက်နည်းတွေ  
+✅ ATM, POS နဲ့ E-commerce စနစ်တွေရဲ့ တည်ဆောက်ပုံနဲ့ ချိတ်ဆက်ပုံတွေ၊ စီမံပုံတွေ  
+✅ Payment Switch ၊ Payment Gateway နဲ့ Card Network တွေရဲ့ အလုပ်လုပ်ပုံတွေ  
+✅ HSM အကြောင်း၊ Key တွေ Key Hierarchies တွေနဲ့ HSM Key Ceremony လုပ်ဆောင်ပုံတွေ  
+✅ EMV, PCI DSS, 3D Secure, Tokenization အစရှိတဲ့ ငွေပေးချေမှုရဲ့ လုံခြုံရေးနည်းစနစ်တွေ  
+✅ ကတ်စနစ်ရဲ့ ဘာသာစကားဖြစ်တဲ့ ISO 8583 Messaging Standard အကြောင်းနဲ့ Message ဖတ်ရှုနည်းတွေ  
+✅ အငြင်းပွားမှု Dispute နဲ့ Chargeback Lifecycle တွေနဲ့ ကိုင်တွယ်ဖို့အတွက် သိထားရမယ့် နည်းဗျူဟာတွေ  
+အစရှိသဖြင့် Card Payments Professional တစ်ယောက်ရဲ့ လမ်းခရီးမှာ အသုံးတည့်မယ့် အကြောင်းအရာတွေ ပါဝင်ပါတယ်။
+
+စာအုပ်မှာ စုစုပေါင်း အခန်း (၈) ခန်း ပါဝင်ပြီး ပထမအကြိမ်ထုတ်ဝေတာထက် အကြောင်းအရာတွေ ပိုမို စုံလင်အောင်၊ ပြည့်စုံသွားအောင်နဲ့ ပိုပြီး Deep ဖြစ်လာအောင် ထပ်တိုး၊ ပြင်ဆင်၊ တည်းဖြတ်ထားပေးပါတယ်။
+
+The Card Payment Professional’s Playbook စာအုပ် (eBook) ထဲမှာဘာတွေပါမလဲဆိုတော့…  
+✅ ငွေပေးချေကတ်တွေရဲ့အကြောင်း၊ နည်းပညာနဲ့ အလုပ်လုပ်ပုံတွေ သဘောတရားတွေ  
+✅ ငွေပေးချေမှုရဲ့ End-to-End Process နှင့် Authorization, Clearing, Settlement တွေအကြောင်း  
+✅ Card Management System တစ်ခုရဲ့ လုပ်ဆောင်ချက်တွေနဲ့ ကတ်ထုတ်ဝေတဲ့ Process တွေ  
+✅ Card တစ်ကဒ်ရဲ့ တည်ဆောက်ပုံတွေ၊ Luhn Algorithm နဲ့ Card Number တွက်နည်းတွေ  
+✅ ATM, POS နဲ့ E-commerce စနစ်တွေရဲ့ တည်ဆောက်ပုံနဲ့ ချိတ်ဆက်ပုံတွေ၊ စီမံပုံတွေ  
+✅ Payment Switch ၊ Payment Gateway နဲ့ Card Network တွေရဲ့ အလုပ်လုပ်ပုံတွေ  
+✅ HSM အကြောင်း၊ Key တွေ Key Hierarchies တွေနဲ့ HSM Key Ceremony လုပ်ဆောင်ပုံတွေ  
+✅ EMV, PCI DSS, 3D Secure, Tokenization အစရှိတဲ့ ငွေပေးချေမှုရဲ့ လုံခြုံရေးနည်းစနစ်တွေ  
+✅ ကတ်စနစ်ရဲ့ ဘာသာစကားဖြစ်တဲ့ ISO 8583 Messaging Standard အကြောင်းနဲ့ Message ဖတ်ရှုနည်းတွေ  
+✅ အငြင်းပွားမှု Dispute နဲ့ Chargeback Lifecycle တွေနဲ့ ကိုင်တွယ်ဖို့အတွက် သိထားရမယ့် နည်းဗျူဟာတွေ  
+အစရှိသဖြင့် Card Payments Professional တစ်ယောက်ရဲ့ လမ်းခရီးမှာ အသုံးတည့်မယ့် အကြောင်းအရာတွေ ပါဝင်ပါတယ်။
+
+စာအုပ်ရဲ့ မာတိကာ ကို‌တော့ [ဒီ Link ကနေ](https://payzillion.com/wp-content/uploads/2026/06/the-card-payment-professionals-playbook-toc.pdf) ကြည့်ရှုနိုင်ပါတယ်။
+
+  
+ဘယ်သူတွေဖတ်သင့်သလဲဆိုတော့…
+
+✅ နေ့စဉ်အသုံးပြုနေရတဲ့ ကတ်စနစ်တွေအကြောင်း ရှင်းရှင်းလင်းလင်း သိထားလိုသူတွေ  
+✅ မိမိတို့ဆိုင်မှာနဲ့ E-commerce စနစ်တွေမှာ ကဒ်ဖြင့် ငွေပေးချေမှု လက်ခံလိုသူတွေ  
+✅ Payment Service Provider တွေ ၊ Fintech နဲ့ နိုင်ငံတကာဘဏ်တွေမှာ အလုပ်လုပ်လိုသူတွေ  
+✅ Card Payments Industry မှာ ပရော်ဖက်ရှင်နယ်လမ်းကြောင်းကို လျှောက်လှမ်းနေသူတွေ ဖတ်သင့်ပါတယ်။
+
+ကျွန်တော်ပြောထားတဲ့အတိုင်း First Edition တုန်းက စာအုပ်ဝယ်ယူထားသူတိုင်းကိုလည်း \[free\] complementary access အနေနဲ့ စာအုပ်ဝယ်ယူထားတဲ့ email တွေကို ပြီးခဲ့တဲ့ ဇွန်လ ၂၁-ရက်နေ့ကတည်းက ပို့ထားပြီးပါပြီ။ အကယ်၍ Email မှာ စာအုပ်မတွေ့ခဲ့ရင် သို့မဟုတ် Download မရတာမျိုးရှိခဲ့ရင် Website ရဲ့ Contact Form ကနေဖြစ်စေ၊ PayZillion Facebook Page Messenger ကနေဖြစ်စေ ဆက်သွယ်နိုင်ပါတယ်။ လတ်တလောစာအုပ်ကို Printed Version အနေနဲ့ ထုတ်ဝေဖြစ်ဦးမှာ မဟုတ်သေးပါဘူး။ အဲဒီအစား တစ်နှစ်တစ်ခါ နှစ်နှစ်တစ်ခါ အသစ်ပြောင်းလဲနေတဲ့ Industry Update တွေ ထပ်ထည့်ပေးတာတွေနဲ့ အကြောင်းအရာတွေ ပိုမို စုံလင်လာအောင်၊ ကျယ်ပြန့်လာအောင် Yearly Update တွေတော့ ဆက်ပြီး ထုတ်ဖြစ်ပါလိမ့်မယ်။

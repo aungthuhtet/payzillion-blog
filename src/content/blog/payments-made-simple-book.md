@@ -1,0 +1,34 @@
+---
+title: "Payments Made Simple စာအုပ် (Free Download)"
+description: ""
+pubDate: 2026-01-05
+author: "Aung Thu Htet"
+tags: 
+  - "40-days-of-payments"
+  - "digital-payments"
+  - "financial-services"
+  - "fintech"
+  - "payment-industry"
+  - "payments"
+  - "payments-made-simple"
+draft: false
+---
+
+Payment Industry ကို စိတ်ဝင်စားတဲ့၊ စတင်ဝင်ရောက်လာမယ့်လူငယ်တွေအတွက် ရည်ရွယ်ပြီး Cards, QR, Wallets, Mobile Payment‌ တွေအကြောင်း၊ Dispute, Fraud, Compliance နဲ့ ငွေပေးချေမှု နည်းပညာတွေအကြောင်းကို လိုတိုရှင်း မိတ်ဆက်ရေးပေးထားပါတယ်။
+
+![Payment Made Simple Book](/images/Payments-Made-Simple-Book.jpg)
+
+၂၀၂၅ နှစ်ကုန်ပိုင်းမှာ ဆောင်းပါး (၄၀)၊ ရက် (၄၀) တစ်နေ့တစ်ပုဒ် တင်ပေးခဲ့တာတွေကို စုပြီးတော့ Payments Made Simple စာအုပ်ကို ဖန်တီးထားတာပါ။ ရေးခဲ့တာတွေကို သေချာပြန်စစ်ပြီး အချက်အလက်တွေ ပိုပြီး ပြည့်စုံအောင် ရှင်းလင်းအောင် လိုတာတွေဖြည့်၊ မလိုတာတွေဖြုတ်ပြီး သေချာတည်းဖြတ်ပေးထားပါတယ်။
+
+အကြောင်းအရာ တူရာအလိုက် ဆောင်းပါး (၄၀) ကို အခန်း (၄) ခန်း ဖွဲ့ပေးထားပါတယ်။
+
+အခန်း (၁) - Everyday Fundamentals  
+အခန်း (၂) - Cards, QR, Wallets & Merchants  
+အခန်း (၃) - Transaction Understanding  
+အခန်း (၄) - Banking, Compliance, Operations & Risk
+
+ငွေပေးချေမှု Payment တွေအကြောင်း စတင်လေ့လာမယ့်သူတွေအတွက် အသုံးဝင်မယ်လို့ ယုံကြည်ပါတယ်။
+
+“Payments Made Simple” စာအုပ်ကို ဒီမှာ အခမဲ့ ရယူနိုင်ပါပြီ။ Email ဖြည့်ပြီး Download button ကို နှိပ်လိုက်တာနဲ့ ဖြည့်ပေးထားတဲ့ email ထဲကို “Payments Made Simple” စာအုပ် ချက်ချင်းဝင်လာပါလိမ့်မယ်။
+
+အရင်က ပြောထားတဲ့ Educational Card Payments Simulator နဲ့ Card Payment Professional စာအုပ် 2nd edition တွေလည်း လတ်စသတ်ပြီးတာနဲ့ Announce လုပ်ပေးပါမယ်။

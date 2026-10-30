@@ -1,11 +1,102 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+// src/pages/index.astro
+import Layout from '@/layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import Newsletter from '@/components/Newsletter.astro';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const displayedPosts = posts.slice(0, 20);
+const hasMore = posts.length > 20;
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Articles & Insights" description="Decoding payment infrastructure, financial engineering, and digital products.">
+  <div class="max-w-3xl mx-auto space-y-10">
+    
+    {/* Header (data-pagefind-ignore ထည့်သွင်းထားသည်) */}
+    <header data-pagefind-ignore class="space-y-3 border-b border-slate-200/80 pb-6">
+      <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+        Articles & Insights
+      </h1>
+      <p class="text-slate-600 text-base">
+        Decoding payment infrastructure, financial engineering, and digital products.
+      </p>
+    </header>
+
+    {/* 1-Column Clean Vertical List Layout */}
+    <div class="space-y-6">
+      {displayedPosts.map((post) => (
+        <article class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 hover:border-amber-500/50 hover:shadow-lg transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-center">
+          
+          {/* Featured Image Thumbnail */}
+          {post.data.image && (
+            <div class="w-full sm:w-48 h-40 shrink-0 rounded-xl overflow-hidden bg-slate-100">
+              <Image 
+                src={post.data.image} 
+                alt={post.data.title} 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          )}
+
+          {/* Post Content */}
+          <div class="flex flex-col justify-between flex-grow w-full">
+            <div>
+              <div class="flex items-center gap-2 text-xs text-slate-500 mb-2">
+                <time datetime={post.data.pubDate.toISOString()}>
+                  {post.data.pubDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric',
+                  })}
+                </time>
+                <span>•</span>
+                <span class="font-medium text-slate-700">{post.data.author}</span>
+              </div>
+
+              <h2 class="text-xl font-bold text-slate-900 group-hover:text-amber-600 transition-colors mb-2 leading-snug">
+                <a href={`/${post.id}`}>
+                  {post.data.title}
+                </a>
+              </h2>
+
+              <p class="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-2">
+                {post.data.description}
+              </p>
+            </div>
+
+            {/* Tags */}
+            {post.data.tags && post.data.tags.length > 0 && (
+              <div class="flex items-center gap-1.5 flex-wrap pt-3 border-t border-slate-100">
+                {post.data.tags.slice(0, 3).map((tag) => (
+                  <span class="px-2 py-0.5 text-[11px] font-medium text-slate-600 bg-slate-100 rounded-md">
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+
+        </article>
+      ))}
+    </div>
+
+    {/* Pagination / Next Page Button */}
+    {hasMore && (
+      <div class="flex items-center justify-end border-t border-slate-200 pt-6">
+        <a href="/page/2" class="px-5 py-2.5 bg-slate-900 text-white text-sm font-medium rounded-xl hover:bg-amber-600 transition shadow-sm">
+          Next Page (Page 2) →
+        </a>
+      </div>
+    )}
+
+    {/* Newsletter Section */}
+    <div class="pt-6">
+      <Newsletter />
+    </div>
+
+  </div>
 </Layout>

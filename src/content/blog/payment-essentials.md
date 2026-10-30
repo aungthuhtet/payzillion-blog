@@ -1,0 +1,65 @@
+---
+title: "Payment Essentials စာအုပ်"
+description: ""
+pubDate: 2025-03-09
+author: "Aung Thu Htet"
+tags: 
+  - "acquirer"
+  - "atm"
+  - "ayapay"
+  - "card-network"
+  - "cbpay"
+  - "chargeback"
+  - "clearing"
+  - "dispute"
+  - "ecommerce"
+  - "issuer"
+  - "kbzpay"
+  - "merchant"
+  - "mmqr"
+  - "myanmar-bank"
+  - "myanmar-payment"
+  - "myanmar-payments-book"
+  - "myanmarpay"
+  - "payment-switch"
+  - "payments"
+  - "pos"
+  - "settlement"
+draft: false
+---
+
+မြန်မာနိုင်ငံမှာ ဒစ်ဂျစ်တယ်ငွေပေးချေမှုစနစ်တွေ တော်တော်များများ ရှိလာသော် လည်း Payment Industry ထဲမှာတော့ လေ့လာစရာ စာအုပ်များများစားစား မထွက်ခဲ့ပါ။ အဲ့ဒါကြောင့် ”Payment Essentials” စာအုပ်ကို ရေးခဲ့တာ ဖြစ်ပါတယ်။
+
+အခမဲ့ Download ရယူနိုင်ပါတယ်။
+
+![Payment Essentials Book](/images/payment-essentials-v1-aung-thu-htet.png)
+
+စာအုပ်ထဲမှာ -
+
+- ငွေပေးချေမှုစနစ်ရဲ့ သဘောသဘာဝတွေ
+
+- Open Loop နဲ့ Closed Loop Payment Model တွေရဲ့ အလုပ်လုပ်ပုံ
+
+- Card Payment Ecosystem မှာပါဝင်တဲ့ Stakeholders တွေ
+
+- မတူညီတဲ့ Payment Card အမျိုးအစားတွေအကြောင်း
+
+- Payment Card တစ်ခုရဲ့ အစိတ်အပိုင်းတွေ
+
+- Transaction တစ်ခုရဲ့ နောက်ကွယ်က အလုပ်လုပ်ပုံ
+
+- Payment Security အတွက် သိထားရမယ့်အချက်တွေ
+
+- ငွေပေးချေမှုမှာ အငြင်းပွားမှုတွေကို ကိုင်တွယ်ရမယ့် နည်းလမ်းတွေ
+
+- Payment Fee တွေ အကြောင်း
+
+- MMQR နဲ့ အခြားသော Alternative Payment တွေအကြောင်း
+
+အစရှိသဖြင့် Payments ရဲ့ သိထားသင့်တဲ့ အကြောင်းအရာတွေ ပါဝင်ပါတယ်။
+
+ငွေပေးချေမှုနဲ့ Payment အကြောင်းစိတ်ဝင်စားသူတွေရော၊ Banking ၊ Fintech နဲ့ Payment Industry မှာ career တစ်ခု အစပြုပြီးလျှောက်လှမ်းမယ့် လူငယ်တွေ အတွက်ပါ အသုံးတည့်အောင် ရေးပေးထားပါတယ်။
+
+ဒီစာအုပ်က ငွေပေးချေမှုနည်းစနစ်တွေအကြောင်း Payment Industry အကြောင်း မိတ်ဆက်စာအုပ် ဖြစ်ပါတယ်။ မကြာခင်မှာ Card Payments System တွေ အကြောင်း အသေးစိတ် Specialize လုပ်ပြီး ရေးပေးမယ့် စာအုပ် ဆက်ပြီး ထွက်လာဖို့လည်းရှိပါတယ်။ နောက်စာအုပ်ကျရင်တော့ Payment Card Industry ကို ဝင်ရောက်လာမယ့် လူငယ်တွေရော၊ လက်ရှိ Industry ထဲမှာ Career ကို အစပြုနေတဲ့ လူငယ်တွေအတွက်ပါ Professional Level အထိ တွန်းတင်ပေးနိုင်လောက်အောင် အသုံးဝင်မယ့် အကြောင်းအရာတွေကို Technical ရှုထောင့်ကနေရော၊ Product Management ၊ Performance Management နဲ့ Operation Management ရှုထောင့်တွေကနေပါ အသေးစိတ် ရေးပေးမှာဖြစ်ပါတယ်လို့ သတင်းကောင်းလေး ပေးထားချင်ပါတယ်။ မကြာခင်မှာ ထွက်ပါလိမ့်မယ်။
+
+"Payment Essentials" စာအုပ်ကို ဒီမှာ အခမဲ့ ရယူနိုင်ပါပြီ။ Email ဖြည့်ပြီး Download button ကို နှိပ်လိုက်တာနဲ့ ဖြည့်ပေးထားတဲ့ email ထဲကို "Payment Essentials" စာအုပ် ချက်ချင်းဝင်လာပါလိမ့်မယ်။
