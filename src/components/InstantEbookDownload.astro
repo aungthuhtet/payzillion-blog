@@ -57,7 +57,7 @@ const { formId, pdfUrl, bookTitle = "Free E-Book" } = Astro.props;
 
       try {
         // Correct Kit API v3 Endpoint with mode: 'no-cors' or standard JSON post
-        const response = await fetch(`https://api.convertkit.com/v3/forms/10124032/subscribe`, {
+        const response = await fetch(`https://api.convertkit.com/v3/forms/${10124032}/subscribe`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
