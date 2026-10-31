@@ -57,7 +57,7 @@ const { formId, pdfUrl, bookTitle = "Free E-Book" } = Astro.props;
 
       try {
         // Sending Email to Kit API (ConvertKit Public API v3)
-        const response = await fetch(`https://api.convertkit.com/v3/forms/10124032/subscribe`, {
+        const response = await fetch(`https://app.kit.com/forms/10124032/subscriptions`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
