@@ -1,39 +1,141 @@
 ---
-// src/pages/the-card-payment-professionals-playbook.astro
-import Layout from '../layouts/Layout.astro'; // သင့်ရဲ့ Layout ဖိုင် Path အမှန်ကို ထည့်ပါ
+import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="The Card Payment Professional’s Playbook (eBook)">
-  <main class="max-w-4xl mx-auto py-12 px-4">
+  <main class="max-w-6xl mx-auto py-8 px-4 font-sans text-gray-800">
     
-    <!-- Book Title and Description -->
-    <div class="text-center mb-10">
-      <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
-        The Card Payment Professional’s Playbook (eBook)
-      </h1>
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-        အောက်ပါ Form မှတစ်ဆင့် ငွေလွှဲအချက်အလက်များကို ကြည့်ရှု၍ ငွေလွှဲစလစ် (Receipt) တင်ပြီး ဝယ်ယူနိုင်ပါသည်။
-      </p>
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:underline">Home</a> / 
+      <span class="text-gray-700">Card Payments</span> / 
+      <span class="text-gray-900 font-medium">The Card Payment Professional’s Playbook (eBook)</span>
+    </nav>
+
+    <!-- Product Main Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
+      
+      <!-- Left: Book Images Preview -->
+      <div class="space-y-4">
+        <div class="border rounded-xl overflow-hidden shadow-md bg-gray-50 flex justify-center p-4">
+          <img src="/images/book-cover.jpg" alt="Book Cover" class="max-h-[450px] object-cover rounded-lg shadow" />
+        </div>
+        <!-- Thumbnails -->
+        <div class="flex gap-3 overflow-x-auto pb-2">
+          <div class="w-20 h-20 border-2 border-blue-600 rounded-lg overflow-hidden cursor-pointer flex-shrink-0">
+            <img src="/images/book-cover.jpg" alt="thumb 1" class="w-full h-full object-cover"/>
+          </div>
+          <div class="w-20 h-20 border rounded-lg overflow-hidden cursor-pointer flex-shrink-0 opacity-70 hover:opacity-100">
+            <img src="/images/toc-1.jpg" alt="thumb 2" class="w-full h-full object-cover"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Product Info & Pricing -->
+      <div>
+        <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">eBook</span>
+        <h1 class="text-2xl md:text-3xl font-bold text-gray-900 mt-2 mb-3">
+          The Card Payment Professional’s Playbook (eBook)
+        </h1>
+        
+        <div class="text-3xl font-extrabold text-blue-600 mb-4">
+          Ks 48,000.00 <span class="text-sm font-normal text-gray-500 line-through">Ks 50,000.00</span>
+        </div>
+
+        <p class="text-gray-600 leading-relaxed mb-6 text-sm md:text-base">
+          Card Payments Professional တစ်ယောက်အနေနဲ့ ရပ်တည်နိုင်ဖို့၊ ဦးတည်ရေးသားထားတဲ့ စာအုပ်ဖြစ်ပါတယ်။ Card Payments Industry အကြောင်းနဲ့ သိထားရမည့် နည်းပညာနဲ့ စနစ်တွေအကြောင်းကို ရှင်းရှင်းလင်းလင်းနဲ့ ပြည့်ပြည့်စုံစုံ ဖတ်ရှုရမှာပါ။
+        </p>
+
+        <div class="bg-gray-50 p-4 rounded-xl border border-gray-200 mb-6 text-sm space-y-2">
+          <p><strong>ဈေးနှုန်း:</strong> ၄၈,၀၀၀ ကျပ်</p>
+          <p><strong>ငွေပေးချေမှု:</strong> KBZPay ဖြင့် တိုက်ရိုက် ငွေပေးချေနိုင်ပါသည်။</p>
+          <p class="text-blue-600 font-medium">📦 Order မှာယူသူများကို email ကနေ eBOOK တွေ ပို့ပေးမှာ ဖြစ်ပါသည်။</p>
+        </div>
+
+        <!-- Purchase Button (Triggers Tally Popup) -->
+        <button 
+          id="openCheckout" 
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-6 rounded-xl shadow-lg transition duration-200 text-center flex items-center justify-center gap-2">
+          🛒 Buy Now / ငွေလွှဲစလစ် တင်မည်
+        </button>
+
+        <div class="mt-6 text-xs text-gray-500 border-t pt-4">
+          <p>Categories: <span class="text-blue-600">Book, Card Payments</span></p>
+        </div>
+      </div>
+
     </div>
 
-    <!-- Tally Checkout Form Embed Box -->
-    <div class="bg-white shadow-xl rounded-2xl p-4 md:p-8 border border-gray-100">
-      <iframe 
-        data-tally-src="https://tally.so/embed/zEj7ba?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&formEventsForwarding=1" 
-        loading="lazy" 
-        width="100%" 
-        height="1698" 
-        frameborder="0" 
-        marginheight="0" 
-        marginwidth="0" 
-        title="The Card Payment Professional’s Playbook (eBook)">
-      </iframe>
+    <!-- Product Description Details -->
+    <div class="mt-12 bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
+      <h2 class="text-xl font-bold border-b pb-3 mb-4 text-gray-900">Description</h2>
       
-      <!-- Tally Widget Script (is:inline is using for Astro) -->
-      <script is:inline>
-        var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
-      </script>
+      <div class="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">
+        <p>The Card Payment Professional’s Playbook စာအုပ် (eBook) ထဲမှာဘာတွေပါမလဲဆိုတော့...</p>
+        <ul class="space-y-2 pl-2">
+          <li>✅ ငွေပေးချေကတ်တွေရဲ့အကြောင်းနဲ့၊ နည်းပညာနဲ့ အလုပ်လုပ်ပုံ သဘောတရားတွေ</li>
+          <li>✅ ငွေပေးချေမှုရဲ့ End-to-End Process နဲ့ Authorization, Clearing, Settlement တွေအကြောင်း</li>
+          <li>✅ Card Management System တစ်ခုနဲ့ လုပ်ဆောင်ချက်နဲ့ ကတ်ထုတ်တေ့ာ Process တွေ</li>
+          <li>✅ Card တစ်ကတ်နဲ့ တည်ဆောက်ပုံတွေ၊ Luhn Algorithm နဲ့ Card Number တွက်နည်းတွေ</li>
+          <li>✅ ATM, POS နဲ့ E-commerce စနစ်တွေရဲ့ တည်ဆောက်ပုံနဲ့ ချိတ်ဆက်ပုံတွေ</li>
+          <li>✅ EMV, PCI DSS, 3D Secure, Tokenization အစရှိတဲ့ ငွေပေးချေမှုရဲ့ လုံခြုံရေးနည်းစနစ်တွေ</li>
+          <li>✅ Dispute နဲ့ Chargeback Lifecycle တွေနဲ့ ကိုယ်တိုင်ဖို့အတွက် သိထားရမယ့် နည်းဗျူဟာတွေ</li>
+        </ul>
+      </div>
     </div>
 
   </main>
+
+  <!-- Tally Popup Modal (Hidden initially, opens on click) -->
+  <div id="checkoutModal" class="fixed inset-0 bg-black/60 hidden z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+    <div class="bg-white w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden relative max-h-[90vh] flex flex-col">
+      
+      <!-- Modal Header -->
+      <div class="flex justify-between items-center p-4 border-b bg-gray-50">
+        <h3 class="font-bold text-lg text-gray-800">Complete Your Order</h3>
+        <button id="closeModal" class="text-gray-500 hover:text-gray-800 text-2xl font-bold px-2">&times;</button>
+      </div>
+
+      <!-- Tally Embed inside Modal -->
+      <div class="p-4 overflow-y-auto flex-1">
+        <iframe 
+          data-tally-src="https://tally.so/embed/zEj7ba?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&formEventsForwarding=1" 
+          loading="lazy" 
+          width="100%" 
+          height="600" 
+          frameborder="0" 
+          marginheight="0" 
+          marginwidth="0" 
+          title="The Card Payment Professional’s Playbook (eBook)">
+        ></iframe>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts for Modal & Tally Widget -->
+  <script is:inline>
+    // Modal Open/Close Logic
+    const modal = document.getElementById('checkoutModal');
+    const openBtn = document.getElementById('openCheckout');
+    const closeBtn = document.getElementById('closeModal');
+
+    openBtn.addEventListener('click', () => {
+      modal.classList.remove('hidden');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.classList.add('hidden');
+    });
+
+    // Close when clicking outside modal
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.add('hidden');
+      }
+    });
+
+    // Tally Script Loader
+    var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
+  </script>
 </Layout>
