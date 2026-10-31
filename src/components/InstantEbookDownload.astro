@@ -1,8 +1,8 @@
 ---
 // src/components/InstantEbookDownload.astro
 interface Props {
-  formId: string;       // Kit Form ID
-  pdfUrl: string;       // PDF File Path from public folder (e.g: /downloads/ebook.pdf)
+  formId: string;       // Kit Form ID (e.g.: 10124032)
+  pdfUrl: string;       // PDF File Path (e.g.: /downloads/ebook.pdf)
   bookTitle?: string;
 }
 
@@ -56,52 +56,46 @@ const { formId, pdfUrl, bookTitle = "Free E-Book" } = Astro.props;
       submitBtn.textContent = 'Processing...';
 
       try {
-        // Sending Email to Kit API (ConvertKit Public API v3)
-        const response = await fetch(`https://app.kit.com/forms/10124032/subscriptions`, {
+        // Correct Kit API v3 Endpoint with mode: 'no-cors' or standard JSON post
+        const response = await fetch(`https://api.convertkit.com/v3/forms/10124032/subscribe`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            api_key: 'jT6jeCTLc7fL7Ilp8BXTuQ', // Public API Key from Kit Dashboard
+            api_key: 'jT6jeCTLc7fL7Ilp8BXTuQ', // Your Kit Public API Key
             email: email
           })
         });
 
-        if (response.ok || response.status === 200) {
-          // PDF will Download instantly upon successful email submission
+        // Kit API returns status 200 on success
+        if (response.ok) {
           if (messageDiv) {
             messageDiv.classList.remove('hidden', 'text-red-600');
             messageDiv.classList.add('text-emerald-600');
             messageDiv.textContent = '🎉 Success! Your download is starting automatically...';
           }
-
-          // Trigger automated file download
-          const link = document.createElement('a');
-          link.href = pdfUrl || '#';
-          link.download = '';
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-
-          form.reset();
         } else {
-          throw new Error('Something went wrong.');
+          console.warn('Kit subscription response not OK, but proceeding with download.');
         }
       } catch (error) {
-        // Even API connectivity have issue, not to dispappoint the user PDF will instantly download and save the email as backup
-        if (messageDiv) {
-          messageDiv.classList.remove('hidden', 'text-red-600');
-          messageDiv.classList.add('text-emerald-600');
-          messageDiv.textContent = '🎉 Thank you! Your download has started.';
-        }
+        console.error('Kit API error:', error);
+      } finally {
+        // Always trigger automated file download so user gets the ebook instantly regardless of network/CORS blocks
         const link = document.createElement('a');
         link.href = pdfUrl || '#';
         link.download = '';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-      } finally {
+
+        if (messageDiv && !messageDiv.classList.contains('text-emerald-600')) {
+          messageDiv.classList.remove('hidden', 'text-red-600');
+          messageDiv.classList.add('text-emerald-600');
+          messageDiv.textContent = '🎉 Thank you! Your download has started.';
+        }
+
+        form.reset();
         submitBtn.disabled = false;
         submitBtn.textContent = 'Get Instant Download';
       }
