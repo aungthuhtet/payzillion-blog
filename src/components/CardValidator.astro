@@ -1,0 +1,104 @@
+---
+// src/components/CardValidator.astro
+---
+
+<div class="not-prose my-8 p-6 bg-white border border-slate-200 rounded-2xl shadow-sm max-w-xl mx-auto">
+  <h3 class="text-lg font-bold text-slate-900 mb-4">Interactive Card Validator & Brand Checker</h3>
+  
+  <div class="space-y-4">
+    <div>
+      <label for="cardNumber" class="block text-xs font-medium text-slate-700 mb-1">Enter Card Number:</label>
+      <input 
+        type="text" 
+        id="cardNumber" 
+        placeholder="4111 2222 3333 4444" 
+        maxlength="23"
+        class="w-full px-4 py-2 text-sm border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500 font-mono"
+      />
+    </div>
+
+    <button 
+      id="validate-btn"
+      type="button"
+      class="w-full py-2.5 bg-slate-900 text-white text-sm font-medium rounded-xl hover:bg-amber-600 transition cursor-pointer"
+    >
+      Validate Card
+    </button>
+
+    <div id="result" class="p-3 text-sm rounded-xl hidden font-medium"></div>
+  </div>
+</div>
+
+<script>
+  function formatCardNumber() {
+    const input = document.getElementById('cardNumber') as HTMLInputElement;
+    if (!input) return;
+    let value = input.value.replace(/\D/g, ''); 
+    value = value.match(/.{1,4}/g)?.join(' ') || value; 
+    input.value = value; 
+  }
+
+  function identifyCardBrand(cardNumber: string) {
+    const firstDigit = cardNumber.charAt(0);
+    const firstTwoDigits = cardNumber.substring(0, 2);
+    const firstThreeDigits = cardNumber.substring(0, 3);
+    const firstFourDigits = cardNumber.substring(0, 4);
+
+    if (firstDigit === '4') return 'Visa';
+    if (firstTwoDigits >= '51' && firstTwoDigits <= '55') return 'Mastercard';
+    if (firstFourDigits >= '2221' && firstFourDigits <= '2720') return 'Mastercard';
+    if (firstTwoDigits === '34' || firstTwoDigits === '37') return 'American Express';
+    if (firstFourDigits === '6011' || firstFourDigits === '65' || (firstThreeDigits >= '644' && firstThreeDigits <= '649')) return 'Discover';
+    if (firstTwoDigits === '62') return 'UnionPay';
+    if (firstFourDigits >= '3528' && firstFourDigits <= '3589') return 'JCB';
+    if ((firstThreeDigits >= '300' && firstThreeDigits <= '305') || firstTwoDigits === '36' || firstTwoDigits === '38' || firstTwoDigits === '39') return 'Diners Club';
+    if (firstTwoDigits === '50' || (firstTwoDigits >= '56' && firstTwoDigits <= '58') || firstDigit === '6') return 'Maestro';
+    if (firstTwoDigits === '60' || firstFourDigits === '6521' || firstFourDigits === '6522') return 'RuPay';
+    if (firstTwoDigits === '95') return 'MPU';
+
+    return 'Unknown Card Brand';
+  }
+
+  function validateCard() {
+    const inputElement = document.getElementById('cardNumber') as HTMLInputElement;
+    const resultDiv = document.getElementById('result');
+    if (!inputElement || !resultDiv) return;
+
+    const input = inputElement.value.replace(/\D/g, '');
+
+    resultDiv.classList.remove('hidden');
+
+    if (input.length < 13 || input.length > 19) {
+      resultDiv.innerHTML = 'Please enter a valid card number (13 to 19 digits).';
+      resultDiv.className = 'p-3 text-sm rounded-xl font-medium bg-red-50 text-red-700 border border-red-200';
+      return;
+    }
+
+    const cardBrand = identifyCardBrand(input);
+
+    let sum = 0;
+    let shouldDouble = false;
+
+    for (let i = input.length - 1; i >= 0; i--) {
+      let digit = parseInt(input.charAt(i), 10);
+      if (shouldDouble) {
+        digit *= 2;
+        if (digit > 9) { digit -= 9; }
+      }
+      sum += digit;
+      shouldDouble = !shouldDouble;
+    }
+
+    const isValid = (sum % 10 === 0);
+    if (isValid) {
+      resultDiv.innerHTML = `Card Brand: <b>${cardBrand}</b><br>✅ The card number is valid.`;
+      resultDiv.className = 'p-3 text-sm rounded-xl font-medium bg-emerald-50 text-emerald-700 border border-emerald-200';
+    } else {
+      resultDiv.innerHTML = `Card Brand: <b>${cardBrand}</b><br>❌ The card number is invalid.`;
+      resultDiv.className = 'p-3 text-sm rounded-xl font-medium bg-red-50 text-red-700 border border-red-200';
+    }
+  }
+
+  document.getElementById('cardNumber')?.addEventListener('input', formatCardNumber);
+  document.getElementById('validate-btn')?.addEventListener('click', validateCard);
+</script>

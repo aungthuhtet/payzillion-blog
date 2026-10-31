@@ -3,15 +3,17 @@ title: "MPU အကြောင်း၊ MPU ကဒ်တွေအကြောင
 description: "မြန်မာနိုင်ငံ၏ MPU ငွေပေးချေမှုစနစ်အကြောင်း လေ့လာခြင်း"
 pubDate: 2026-10-31
 author: "Aung Thu Htet"
-draft: true
+image: "../../assets/images/card-payments-ecosystem.png"
 tags: 
   - "atm"
   - "myanmar-payment"
   - "payment-switch"
+draft: true
 ---
 
 Myanmar Payment Union (MPU) ကို ၂၀၁၁ ခုနှစ်မှာ မြန်မာနိုင်ငံတော်ဗဟိုဘဏ်ရဲ့ ဦးဆောင်မှုနဲ့ စတင်ခဲ့ပါတယ်။
 
+![Card Payments Ecosystem](/images/card-payments-ecosystem.png)
 💡
 
 ```json

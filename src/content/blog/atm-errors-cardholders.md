@@ -3,6 +3,7 @@ title: "ATM မှာ ဖြစ်တတ်တဲ့ ပြဿနာတွေန
 description: ""
 pubDate: 2025-03-20
 author: "Aung Thu Htet"
+image: "../../assets/images/atm-errors-cardholders.png"
 tags: 
   - "atm"
   - "myanmar-payment"

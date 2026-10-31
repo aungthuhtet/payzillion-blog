@@ -1,0 +1,25 @@
+---
+title: "Card Number Validator using Luhn Algorithm"
+description: ""
+pubDate: 2025-03-21
+author: "Aung Thu Htet"
+image: "../../assets/images/card-no-checker-luhn-algorithm.png"
+draft: false
+---
+import CardValidator from '../../components/CardValidator.astro';
+
+# Card No Checker (Luhn Algorithm)
+
+<CardValidator />
+
+Card နံပါတ်မှန်၊ မမှန်နဲ့ Card Brand ကို ခွဲခြားနိုင်ဖို့ ဒီ Tool လေး မှာ စမ်းသပ်ကြည့်ရှုနိုင်ပါတယ်။
+
+Luhn Algorithm ကို Hans Peter Luhn ဆိုတဲ့ IBM ပညာရှင်က တီထွင်ခဲ့တာဖြစ်ပြီး ဘဏ်ကဒ်နံပါတ် (Card Number) တွေ တွက်ချက်ဖို့အတွက် စစ်ဆေးဖို့အတွက် အသုံးပြုကြပါတယ်။
+
+အပေါ်မှာ ထည့်ထားပေးတာကတော့ Luhn Algorithm နဲ့ Card Brand အမျိုးအစားနဲ့ Card Number မှန်၊ မမှန် တွက်ချက်ပေးတဲ့ Calculator ဖြစ်ပါတယ်။
+
+Card Brand အနေနဲ့ MPU အပါအဝင် JCB ၊ UPI ၊ Visa ၊ Mastercard ၊ American Express ၊ Discover ၊ Diners Club အစရှိတဲ့ Major Card Brand တွေကို ခွဲခြားပေးနိုင်ပါတယ်။
+
+Text box ထဲမှာ မိမိစစ်ချင်တဲ့ card number ကို ရိုက်ထည့်ပြီး "Validate" button ကို နှိပ်ပြီး စစ်နိုင်ပါတယ်။ Validate လုပ်လိုက်တာနဲ့ ကဒ်အမျိုးအစားနဲ့ ကဒ်နံပါတ်မှန်၊ မမှန်ကို output ပြန်ပြပေးပါမယ်။
+
+ကဒ်နံပါတ်မှန်တယ်ဆိုရင် "The card number is valid." ဆိုပြီး အစိမ်းရောင်နဲ့ result ပြပါမယ်။ နံပါတ်မှားခဲ့ရင် "The card number is invalid." ဆိုပြီး အနီရောင်နဲ့ ပြပါမယ်။

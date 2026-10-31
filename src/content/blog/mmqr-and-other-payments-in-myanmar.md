@@ -3,12 +3,11 @@ title: "MMQR အပါအဝင် အခြားသော Payment နည်း
 description: ""
 pubDate: 2025-03-08
 author: "Aung Thu Htet"
+image: "../../assets/images/mmqr-and-other-payments.png"
 draft: false
 ---
 
 ဒစ်ဂျစ်တယ်ခေတ်မှာ ငွေပေးချေမှု နည်းလမ်းတွေ အမျိုးမျိုး ပေါ်ထွက်လာပြီး မြန်မာနိုင်ငံမှာလည်း ကဒ်တွေအပြင် အခြားရွေးချယ်စရာ နည်းလမ်းတွေ အများကြီးရှိလာပါတယ်။ အသုံးအများဆုံးကတော့ Internet /Mobile Banking တွေနဲ့ Digital Wallet တွေ pay app တွေနဲ့ သုံးမှန်းမသိ သုံးမိနေကြတဲ့ DCB payments တွေဖြစ်ပါတယ်။
-
-![MMQR and Other Payments](/images/mmqr-and-other-payments.png)
 
 **၁။ Direct Carrier Billing ဆိုတာ**
 

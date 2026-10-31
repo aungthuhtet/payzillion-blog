@@ -3,6 +3,7 @@ title: "Credit Card ဒီလိုလျှောက်ပါ"
 description: ""
 pubDate: 2025-07-22
 author: "Aung Thu Htet"
+image: "../../assets/images/apply-credit-card.png"
 draft: false
 ---
 

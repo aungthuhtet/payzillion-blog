@@ -3,6 +3,7 @@ title: "Card Payment စနစ်တွေကြား ဘယ်လိုဆက�
 description: ""
 pubDate: 2025-03-23
 author: "Aung Thu Htet"
+image: "../../assets/images/introduction-to-iso8583.png"
 tags: 
   - "card-network"
   - "payments"
@@ -10,8 +11,6 @@ draft: false
 ---
 
 Card Payments စနစ်တွေ တစ်ခုနဲ့တစ်ခု ဆက်သွယ်ဖို့အတွက် ISO 8583 ကို စံသတ်မှတ်ချက် (Messaging Standard) အဖြစ် အသုံးပြုပါတယ်။ ဆိုင်တစ်ဆိုင်မှာ ကဒ်နဲ့ ငွေရှင်းတယ်ဆိုပါစို့။ ကဒ်ကို စက်ထဲထည့်ပြီး ငွေချေလိုက်တာနဲ့ စက္ကန့်ပိုင်းအတွင်း ငွေပေးချေမှု ပြီးသွားပါတယ်။ အဲ့ဒီလို ဖြစ်ဖို့အတွက် Acquirer ကနေ Card Network ၊ Card Network ကနေ Card Issuer ကို ဆက်သွယ်ဖို့ရာ ISO 8583 ရဲ့ သတ်မှတ်ချက်တွေအတိုင်း အချင်းချင်း ဆက်သွယ်ပြီး အလုပ်လုပ်တာဖြစ်ပါတယ်။ ကဒ်အချက်အလက်၊ ငွေပမာဏ၊ သုံးစွဲတဲ့အချိန် စတဲ့အရာတွေကို ဘဏ်ဆီပို့ပေးပြီး ဘဏ်က ခွင့်ပြုမလား၊ ငြင်းမလားဆိုတာကို ပြန်ဖြေပေးပါတယ်။ ISO 8583 ကို Transaction Process မှာပါဝင်တဲ့ စက်တွေ၊ စနစ်တွေက လိုက်နာပြီး အသုံးပြုကြတာမို့ မတူညီတဲ့ စက်၊ စနစ်တွေဖြစ်ပေမယ့် အပြန်အလှန်ဆက်သွယ်နိုင်တာဖြစ်ပါတယ်။
-
-![Intorduction to ISO 8583](/images/introduction-to-iso8583.png)
 
 ISO 8583 မှာ version ၃ခုရှိပြီး ၁၉၈၇ မှာ version 0 ၊ ၁၉၉၃ မှာ version 1 နဲ့ ၂၀၀၃ မှာ version 2 ဆိုပြီး ထွက်ထားပါတယ်။ လက်ရှိ Card Payments Industry မှာ အသုံးအများဆုံးနဲ့ တွင်ကျယ်စွာ အသုံးပြုနေကြတာကတော့ ISO 8583 version 0 ပဲ ဖြစ်ပါတယ်။ ISO 8583 Message တွေရဲ့ တည်ဆောက်ပုံကို ပြောရရင်တော့ ISO 8583 Message တွေမှာ ဒေတာပို့တဲ့အခါ အဓိကအားဖြင့် အစိတ်အပိုင်း ၃ခု ပါဝင်ပါတယ်။
 
@@ -43,8 +42,20 @@ ISO 8583 မှာ version ၃ခုရှိပြီး ၁၉၈၇ မှာ
 
 ဆက်ပြီးတော့ ISO 8583 Message ရဲ့ တည်ဆောက်ပုံကို လေ့လာနိုင်အောင် နမူနာ (Sample Message) တစ်ခုကိုပါ ဖော်ပြပေးလိုက်ပါတယ်။ နားလည်လွယ်မယ်လို့ ထင်ပါတယ်။ ATM မှာ ငွေထုတ်တဲ့ Transaction အတွက် ပို့တဲ့ message ဖြစ်ပါတယ်။
 
-```
-MTI: 0200Bitmap: F238000108A18010DE 2: Primary Account Number: [Card Number]DE 3: Processing Code: 010000DE 4: Transaction Amount: 000005000000DE 7: Transmission Date and Time: 0323154040DE 11: System Trace Audit Number: 654321DE 12: Local Transaction Time: 164040DE 13: Local Transaction Date: 0323DE 18: Merchant Category Code: 6011DE 22: Point of Service Entry Mode: 021DE 32: Acquiring Institution ID Code:12345678DE 37: Retrieval Reference Number: XYZ987654321DE 41: Card Acceptor Terminal ID: ATM00123DE 49: Currency Code: 104
+```txt
+MTI: 0200Bitmap: F238000108A18010
+DE 2: Primary Account Number: [Card Number]
+DE 3: Processing Code: 010000
+DE 4: Transaction Amount: 000005000000
+DE 7: Transmission Date and Time: 0323154040
+DE 11: System Trace Audit Number: 654321
+DE 12: Local Transaction Time: 164040DE 13: Local Transaction Date: 0323
+DE 18: Merchant Category Code: 6011
+DE 22: Point of Service Entry Mode: 021
+DE 32: Acquiring Institution ID Code:12345678
+DE 37: Retrieval Reference Number: XYZ987654321
+DE 41: Card Acceptor Terminal ID: ATM00123
+DE 49: Currency Code: 104
 ```
 
 ဒီလောက်ဆိုရင်တော့ ISO 8583 message အကြောင်းနဲ့ သဘောတရားကို သိသွားလောက်ပါပြီ။ လက်ရှိအချိန်အထိ Visa ၊ Mastercard အပါအဝင် Major Card Brand တွေမှာ ISO 8583 ကို အသုံးပြုပါတယ်။ မြန်မာပြည်က Card Network ဖြစ်တဲ့ MPU မှာလည်း ISO 8583 ကိုပဲ Messaging Standard အဖြစ်သုံးပါတယ်။ အဲ့ဒါကြောင့် ISO 8583 Message တွေကို နားလည်ထားရင် ကဒ်အသုံးပြုသူ (User) တစ်ယောက်အနေနဲ့ပဲဖြစ်ဖြစ်၊ ကဒ်စနစ်တွေနဲ့ ထိတွေ့လုပ်ကိုင်ရတဲ့ Software Engineer တွေဖြစ်ဖြစ်၊ Payment Service Provider တွေနဲ့ ဘဏ်တွေမှာ အလုပ်လုပ်ရတဲ့ Professional တွေအတွက်ပဲဖြစ်ဖြစ် အများကြီး အကျိုးရှိမှာပါ။ မကြာခင်ထွက်လာမယ့် Card Payments Professional စာအုပ်ထဲမှာလည်း ISO 8583 အကြာင်းအသေးစိတ်နဲ့ case studies တွေကို ရေးပေးထားပါမယ်။ တစ်ခုခုမရှင်းတာ သိချင်တာရှိရင်လည်း လာမေးလို့ရပါတယ်။

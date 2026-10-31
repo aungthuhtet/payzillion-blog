@@ -3,12 +3,11 @@ title: "Card Payment Ecosystem မှာ ပါဝင်သူများနှ
 description: ""
 pubDate: 2024-08-22
 author: "Aung Thu Htet"
+image: "../../assets/images/card-payments-ecosystem.png"
 draft: false
 ---
 
 နည်းပညာခေတ်ကို ရောက်လာတာနဲ့အမျှ ငွေပေးချေမှုစနစ်ဟာ ဒစ်ဂျစ်တယ်ပုံစံနဲ့ ပြောင်းလဲလာရင်း ကဒ်ဖြင့်ငွေပေးချေမှု (Card Payments) တွေဟာ နေ့စဉ်ဘဝရဲ့ အဓိကအစိတ်အပိုင်းတစ်ခု ဖြစ်လာပါတယ်။ ဒီလို ကဒ်ဖြင့်ငွေပေးချေမှု ecosystem တစ်ခုလုံးကို ထိန်းသိမ်းထားနိုင်ဖို့ အဓိက ပါဝင်သူ (Key Players) တွေရှိပြီး သူတို့တစ်ဦးချင်းစီမှာ သီးခြားအခန်းကဏ္ဍတွေ ရှိကြပါတယ်။ အဲဒီ ပါဝင်သူတွေရဲ့ တာဝန်နဲ့ လုပ်ဆောင်ပုံကို နည်းပညာရှုထောင့်ကနေ ပြောပြပေးပါမယ်။
-
-![Card Payments Ecosystem](/images/card-payments-ecosystem.png)
 
 ၁။ ကဒ်ကိုင်ဆောင်သူ (Cardholder)
 

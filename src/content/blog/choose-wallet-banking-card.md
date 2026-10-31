@@ -3,12 +3,11 @@ title: "Digital Wallet vs Banking App vs Card ဘာကို သုံးရမ
 description: ""
 pubDate: 2025-07-25
 author: "Aung Thu Htet"
+image: "../../assets/images/choose-wallet-banking-card.jpg"
 draft: false
 ---
 
 ဒီနေ့ခေတ်မှာ digital wallet တွေ၊ internet/mobile banking app တွေနဲ့ ငွေပေးချေမှုကတ်တွေ အစရှိသဖြင့် ဒီဂျစ်တယ်ငွေပေးချေမှုနည်းလမ်း အမျိုးမျိုးပေါ်လာတာမို့ ကိုယ်နဲ့ ဘယ်ငွေပေးချေမှုနည်းလမ်းက အသင့်တော်ဆုံးဖြစ်မလဲဆိုတာ စဉ်းစားစရာ၊ ရွေးချယ်စရာ ဖြစ်လာပါတယ်။ အကောင်းဆုံးအဖြေကတော့ ကိုယ်ရဲ့နေထိုင်ပုံ၊ ငွေကြေးသုံးစွဲပုံနဲ့ စီမံခန့်ခွဲမှုအပေါ်မှာ မူတည်ပြီး ရွေးချယ်သင့်ပါတယ်။
-
-![Choose Wallet, Banking, and Card](/images/choose-wallet-banking-card.jpg)
 
 **၁) လူတိုင်းအတွက် Digital Wallet App**
 
